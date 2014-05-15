@@ -1,4 +1,5 @@
 body{
+    font-family: Calibri;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -10,52 +11,147 @@ body{
     width: 1020px;
 }
 header{
-    background-color: #DF3A01;
-    border: 1px solid;
-    color: #FFF;
-    display: inline-block;
-    width: 100%;
+    background-color: #F58029;
+    border: 1px solid orange;
+    //color: #FFF;
+    width: 100%; 
 }
 header a{
     color: #FFF;
     text-decoration: none;
 }
 header>.wrap-header>.logo{
-    border: 1px solid;
     display: inline-block;
+    font-size: .8em;
+    margin: 0;
+    padding: 0;
     vertical-align: top;
+    width: 20%;
+}
+header>.wrap-header>.logo>figure{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 45%;
+}
+header>.wrap-header>.logo>figure img{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header>.wrap-header>.logo>h1{
+    color: #FFF;
+    display: inline-block;
+    line-height: 90%;
+    margin: 0 0 0 0;
+    padding: 0;
+    vertical-align: bottom;
+    width: 45%;
+}
+header>.wrap-header>.logo>h1>span{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+header>.wrap-header>.logo>h1>div{
+    display: inline-block;
+    font-size: .8em;
+    font-weight: normal;
+    left: 62px;
+    position: relative;
+    top: -12px;
+    vertical-align: top;
+    transform:rotate(-20deg);
+    -webkit-transform:rotate(-20deg);
 }
 header>.wrap-header>.options{
-    border:1px solid;
     display: inline-block;
+    margin: 22px 0 0 15px;
     vertical-align: top;
+    width: 55%;
 }
 header>.wrap-header>.options ul{
-    
     margin: 0;
     padding: 0;
 }
 header>.wrap-header>.options ul>li{
-    border:1px solid ;
+    color: #FFF;
     display: inline-block;
     vertical-align: top;
 }
-header>.wrap-header>.options ul>li:nth-child(2):before{
-    content: "|";
+header>.wrap-header>.options ul>li:nth-child(2) span:before{
+    content: "|"
 }
-header>.wrap-header>.options ul>li:nth-child(2):after{
-    content: "|";
+header>.wrap-header>.options ul>li:nth-child(2) span{
+    margin: 0 7px 0 7px;
 }
 header>.wrap-header>.options>.list-options>*{
     display: inline-block;
     vertical-align: top;
 }
+header>.wrap-header>.options>.list-options>a{
+    float: right;
+}
+header>.wrap-header>.options>.search{
+    margin: 12px 0 0 0;
+}
+header>.wrap-header>.options>.search>input{
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid white;
+    border-radius: 5px;
+    display: block;
+    padding: 2px 0 2px 8px;
+    width: 100%;
+}
+header>.wrap-header>.options>.search input::-webkit-input-placeholder{
+    color: #FFF;
+}
+header>.wrap-header>.options>.search input::-moz-placeholder{
+    color: #FFF;
+}
 header>.wrap-header>.user{
     border:1px solid;
     display: inline-block;
-    float: right;
+    margin: 0 0 0 20px;
     vertical-align: top;
+    width: 20%;
 }
+header>.wrap-header>.user figure{
+    background-color: #FFF;
+    border:1px solid blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 45%;
+}
+header>.wrap-header>.user figure>a{
+    margin: 0;
+    padding: 0;
+    color: black;
+    width: 100%;
+}
+header>.wrap-header>.user figure img{
+    display: none;
+    margin: 0;
+    padding: 0;
+
+}
+header>.wrap-header>.user div{
+    border: 1px solid;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    width: 45%;
+}
+header>.wrap-header>.user div>p{
+    border: 1px solid;
+}
+
 
 nav{
     border:1px solid red;
