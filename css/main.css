@@ -6,15 +6,15 @@ body{
     text-align: left;    
 }
 .wrap-header,.wrap-main,.wrap-footer{
-    border:1px solid blue;
     margin: auto;
-    width: 1020px;
+    max-width: 1020px;
 }
 header{
     background-color: #F58029;
-    border: 1px solid orange;
     //color: #FFF;
-    width: 100%; 
+    padding: 12px 0;
+    width: 100%;
+
 }
 header a{
     color: #FFF;
@@ -112,7 +112,7 @@ header>.wrap-header>.options>.search input::-moz-placeholder{
     color: #FFF;
 }
 header>.wrap-header>.user{
-    border:1px solid;
+    color: #FFF;
     display: inline-block;
     margin: 0 0 0 20px;
     vertical-align: top;
@@ -120,9 +120,9 @@ header>.wrap-header>.user{
 }
 header>.wrap-header>.user figure{
     background-color: #FFF;
-    border:1px solid blue;
     border-radius: 50%;
     display: inline-block;
+    height: 90px;
     margin: 0;
     padding: 0;
     vertical-align: top;
@@ -141,39 +141,111 @@ header>.wrap-header>.user figure img{
 
 }
 header>.wrap-header>.user div{
-    border: 1px solid;
-    display: inline-block;
-    margin: 0;
+    float: right;
+    margin: 20px 0 0 0;
     padding: 0;
     vertical-align: top;
     width: 45%;
 }
-header>.wrap-header>.user div>p{
-    border: 1px solid;
+header>.wrap-header>.user div>span{
+    display: inline-block;
+    vertical-align: top;
 }
 
 
 nav{
-    border:1px solid red;
     margin: auto;
     width: 1020px;
 }
 nav a{
-    color:#000;
+    color: #939598;
     text-decoration: none;
 }
+nav>ul{
+    padding: 0;
+}
+nav>ul>li:first-child{
+    margin: 0 20px 0 40px;
+}
 nav>ul>li{
-    border:1px solid;
-    margin: 0 20px 0 0;
+    margin: 0 30px 0 0;
     font-size: 1.3em;
     display: inline-block;
+    vertical-align: top;
+}
+nav>ul>li:before{
+    content: "○ ";
+    color: #F7941E;
 }
 
 .wrap-main{
-    border:1px solid orange;
+
+}
+.wrap-main>div{
+text-align: right;
+}
+.wrap-main>div>h1{
+    //border: 1px solid;
+    display: inline-block;
+    font-size: 4em;
+    margin: 0;
+    opacity: 0.1;
 }
 .wrap-main>article{
-    border:1px solid;
-    font-size: 2em;
+    font-size: 1.6em;
+    height: 170px;
+    margin: 8px 0 35px 0 ;
+}
+.wrap-main>article>.title{
+    border-right: 8px solid;
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+    text-align: center;
+    width: 20%;
+}
+.wrap-main>article>.title a{
+    text-decoration: none;
+}
+.wrap-main>article>.title h2{
+    font-weight: normal;
+    margin: 10px 0 0 10px;
+    padding: 0;
 }
 
+.wrap-main>article>.image{
+    display: inline-block;
+    vertical-align: top;
+   // outline: 1px solid;
+    width: 78%;
+}
+
+/********Colores de Seccion*********/
+.wrap-main>.aperitivos>.title{
+    border-color: orange;
+}
+.wrap-main>.ensaladas-y-verduras>.title{
+    border-color: green;
+}
+
+
+footer{
+    background-color: #E7E7E8;
+    width: 100%;
+}
+footer>.wrap-footer{
+    text-align: center;
+}
+footer>.wrap-footer>.wrap-social{
+   
+}
+footer>.wrap-footer>.wrap-social>div{
+    color: #B1B1B2;
+  
+    display:inline-block;
+    vertical-align: top;
+}
+footer>.wrap-footer>.wrap-social>.icons-social>ul>li{
+display: inline-block;
+vertical-align: top;
+}
