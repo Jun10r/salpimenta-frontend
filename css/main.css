@@ -7,7 +7,10 @@ body{
 }
 .wrap-header,.wrap-main,.wrap-footer{
     margin: auto;
-    max-width: 1020px;
+    width: 1020px;
+}
+a{
+    text-decoration: none;
 }
 header{
     background-color: #F58029;
@@ -138,7 +141,6 @@ header>.wrap-header>.user figure img{
     display: none;
     margin: 0;
     padding: 0;
-
 }
 header>.wrap-header>.user div{
     float: right;
@@ -177,6 +179,12 @@ nav>ul>li:before{
     content: "○ ";
     color: #F7941E;
 }
+/*HOVER MENU*/
+nav>ul>li>a:hover{
+    text-decoration: underline;
+}
+
+
 
 .wrap-main{
 
@@ -221,6 +229,9 @@ text-align: right;
     padding: 0;
     width: 77%;
 }
+.wrap-main>article .image:hover{
+    opacity: 0.4;
+}
 .wrap-main>article .image figure{
     display: flex;
     margin: 0;
@@ -230,36 +241,68 @@ text-align: right;
     display: inline-flex;
 }
 .wrap-main>article .image figure img{
-
     width: 100%;
+}
+.wrap-main>article .image figure a:active{
+    filter:grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
 }
 
 /********Colores de Seccion*********/
 .wrap-main>.aperitivos>.title{
-    border-color: orange;
+    border-color: #F58029;
 }
 .wrap-main>.ensaladas-y-verduras>.title{
-    border-color: green;
+    border-color: #8dc63f;
+}
+.wrap-main>.arroces-y-cereales>.title{
+    border-color: #f5ee31;
+}
+.wrap-main>.sopas-y-cremas>.title{
+    border-color: #dbb570;
 }
 
 
 footer{
     background-color: #E7E7E8;
+    color: #B1B1B2;
     width: 100%;
 }
 footer>.wrap-footer{
+    //border: 1px solid;
     text-align: center;
 }
 footer>.wrap-footer>.wrap-social{
-   
+    display: inline-block;
+    margin: 20px 0 0 0;
 }
-footer>.wrap-footer>.wrap-social>div{
-    color: #B1B1B2;
-  
+footer>.wrap-footer>.wrap-social .followus{
+    
     display:inline-block;
+    margin: 0 12px 0 0;
     vertical-align: top;
 }
+footer>.wrap-footer>.wrap-social>.icons-social{
+    border-left: 8px solid;
+     color: #B1B1B2;
+    display: inline-block;
+    vertical-align: top;
+}
+
 footer>.wrap-footer>.wrap-social>.icons-social>ul>li{
 display: inline-block;
+margin: 0 8px 0 0;
 vertical-align: top;
+}
+footer .info-page{
+    color:#939598;
+}
+footer .info-page>ul>li{
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: top,
+}
+footer .info-page>ul>li span:before{
+    content: "|";
 }
