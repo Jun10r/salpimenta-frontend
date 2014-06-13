@@ -11,60 +11,82 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/icomoon.css"/>
-        
-        <link rel="stylesheet" href="css/main.css"/>
 
+        <link rel="stylesheet" href="css/main.css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
     </head>
-<body>
-    <header>
-        <div class="wrap-header">
-            <div class="logo">
-                <figure>
-                    <a href="#"><img src="img/logo.png" alt="Logo Salpimenta" width="88" height="88"/></a>
-                </figure>
-                <h1>salpi<br><span>menta</span><div>Beta</div></h1>
-            </div>
-            <div class="options">
-                <div class="list-options">
-                    <!--elejir colores hover.-->
-                    <ul>
-                        <li><a href="#">Mi salpimenta</a></li>
-                        <li><span></span><a href="#">Explorar</a><span></span></li>
-                        <li><a href="#">Blogs</a></li>
-                    </ul>
-                    <a href="#">Subir receta...</a>
+    <body>
+        <header class="header">
+            <div class="wrap-header">
+                <div class="logo">
+                    <figure>
+                        <a href="#"><img src="img/logo.png" alt="Logo Salpimenta" width="88" height="88"/></a>
+                    </figure>
+                    <h1>salpi<br><span>menta</span><span class="beta">Beta</span></h1>
                 </div>
-                <div class="search">
-                    <input type="search" placeholder="Buscar">
+                <div class="options">
+                    <div class="list-options">
+                        <!--elejir colores hover.-->
+                        <ul>
+                            <li><a href="#">Mi salpimenta</a></li>
+                            <li><span></span><a href="#">Explorar</a><span></span></li>
+                            <li><a href="mis-vblogs.html">Blogs</a></li>
+                        </ul>
+                        <a href="#">Subir receta...</a>
+                    </div>
+                    <div class="search">
+                        <form action="#" method="post">
+                        <input type="search" placeholder="Buscar">
+                        </form>
+                    </div>
+                </div>
+                <div class="user">
+                    <figure>
+                        <a href="#"><img src="#" alt="insert yout face here" /></a>
+                    </figure>
+                    <div>
+                        <ul>
+                            <li class="user-perfil"><a href="#">Usuario</a>
+                                <ul class="menu-perfil">
+                                    <li><a href="#">Mi ficha</a></li>
+                                    <li><a href="#">Subir Blog</a></li>
+                                    <li><a href="#">Ajustes</a></li>
+                                    <li><a href="#">Ver/Editar Recetas</a></li>
+                                    <li><a href="#">Ver/Editar Blogs</a></li>
+                                    <li><a href="#">salir</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">5 recetas</a></li>
+                        </ul>
+                        <!--Al pinchar  abrir menu panel perfil.
+                        /*
+                            
+                            Subir Blog
+                            Ajustes
+                            Mi ficha
+                            ver/editar Recetas
+                            ver/editar Blogs
+                            desconectarse
+                            seriesly.
+                        */
+                        -->
+                    </div>
                 </div>
             </div>
-            <div class="user">
-                <figure>
-                    <a href="#"><img src="#" alt="insert yout face here" /></a>
-                </figure>
-                <div>
-                    <span>Usuario</span>
-                    <span>5 recetas</span>
-                    <!--Al pinchar  abrir menu panel perfil.
-                    /*
-                        Ajustes
-                        Mi ficha
-                        ver/editar Recetas
-                        desconectarse
-                        seriesly.
-                    */
-                -->
-                </div>
-            </div>
-        </div>
-    </header>
-        <nav>
+        </header>
+        <nav class="menu">
             <ul>
                 <li class="aperitivos"><a href="#">Aperitivos</a></li>
                 <li class="ensaladas-y-verduras"><a href="#">Ensaladas y Verduras</a></li>
                 <li class="arroces-y-cereales"><a href="#">Arroces y Cereales</a></li>
                 <li class="sopa-y-cremas"><a href="#">Sopa y Cremas</a></li>
                 <li class="pastas-y-pizzas"><a href="#">Pastas y Pizzas</a></li>
+            </ul>
+            <ul>
                 <li class="legumbres"><a href="#">Legumbres</a></li>
                 <li class="carnes"> <a href="#">Carnes</a></li>
                 <li class="pescados-y-mariscos"><a href="#">Pescados y Mariscos</a></li>
@@ -77,8 +99,8 @@ and open the template in the editor.
         <section class="wrap-main">
             <div class="name-page"><h1>Mi Salpimenta</h1></div>
 
-            <article class="section aperitivos">
-                <div class="title">
+            <article class="section">
+                <div class="title aperitivos">
                     <a href="#"><h2>Aperitivos</h2></a>
                 </div>
                 <div class="image">
@@ -87,8 +109,8 @@ and open the template in the editor.
                     </figure>
                 </div>
             </article>
-            <article class="section ensaladas-y-verduras">
-                <div class="title">
+            <article class="section ">
+                <div class="title ensaladas-y-verduras">
                     <a href="#"><h2>Ensaladas y Verduras</h2></a>
                 </div>
                 <div class="image">
@@ -97,8 +119,8 @@ and open the template in the editor.
                     </figure>
                 </div>
             </article>
-            <article class="section arroces-y-cereales">
-                <div class="title">
+            <article class="section ">
+                <div class="title arroces-y-cereales">
                     <a href="#"><h2>Arroces y Cereales</h2></a>
                 </div>
                 <div class="image">
@@ -107,8 +129,8 @@ and open the template in the editor.
                     </figure>
                 </div>
             </article>
-            <article class="section sopas-y-cremas">
-                <div class="title">
+            <article class="section ">
+                <div class="title sopas-y-cremas">
                     <a href="#"><h2>Sopa y Cremas</h2></a>
                 </div>
                 <div class="image">
@@ -118,7 +140,7 @@ and open the template in the editor.
                 </div>
             </article>
         </section>
-        <footer>
+        <footer >
             <div class="wrap-footer">
                 <div class="wrap-social">
                     <div class="followus">
@@ -155,5 +177,32 @@ and open the template in the editor.
                 </div>
             </div>
         </footer>
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+            (function(b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l;
+                b[l] || (b[l] =
+                        function() {
+                            (b[l].q = b[l].q || []).push(arguments)
+                        });
+                b[l].l = +new Date;
+                e = o.createElement(i);
+                r = o.getElementsByTagName(i)[0];
+                e.src = '//www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+            ga('create', 'UA-XXXXX-X');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>
