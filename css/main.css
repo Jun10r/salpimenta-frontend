@@ -538,7 +538,6 @@ nav>ul>li:hover a{
 }
 .wrap-detail>.wrap-autor{
     border:1px solid blue;
-    //height: 600px;
 }
 .wrap-autor .image-receta{
     border:1px solid red;
@@ -653,6 +652,100 @@ nav>ul>li:hover a{
 }
 
 /****/
+/**REGISTRO USUARIO**/
+.background-register{
+    background: #F58029;
+}
+.logo-register{
+    background:#fff;
+    border-radius: 0 0 8px 8px;
+}
+.logo-register h1{
+    color:#333;
+}
+.info-salpimenta{
+    color: #fff;
+    display: inline-block;
+    opacity: 0.7;
+    position: relative;
+    left: 590px;
+    text-align: right;
+    vertical-align: top;
+}
+.info-salpimenta h1{
+    margin: 0;
+}
+.info-salpimenta span{
+    font-size: 1.1em;
+}
+.info-salpimenta span:last-child{
+    font-size: 1.2em;
+}
+.wrap-form-register{
+    margin: 0 0 50px 0;
+    width: 100%;
+}
+.wrap-form-register>h3{
+    color:#FFF;;
+    //display: block;
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
+.box-register{
+    background: #FFF;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 8px 0 0 0;
+}
+.style-boxes-register{
+    color:#6d6e71;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.style-boxes-register>h3{
+    margin:0;
+}
+.style-boxes-register>input{
+    background: #f3f3f4;
+    display: block;
+    border:none;
+    margin: 12px auto;
+    outline: none;
+    padding: 8px 0 8px 12px ;
+    width: 330px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.style-boxes-register>input:focus{
+    box-shadow: 1px 1px 5px #333;
+}
+.style-boxes-conditions{
+    color:#6d6e71;
+    text-align: center;
+}
+.submit{
+    //margin: 15px 0 15px 0;
+    text-align: center;
+}
+.submit>input{
+    border:none;
+    border-radius: 6px;
+    background:#109560;
+    box-shadow: 0px 2px 10px #109560;
+    color: #FFF;
+    font-size: 1.4em;
+    margin: 25px;
+    outline:0;
+    width: 150px;
+}
+.submit>input:active{
+}
+
+/******/
 .wrap-main .pagination{
     //border:1px solid;
     text-align: center;
