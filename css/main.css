@@ -734,18 +734,64 @@ nav>ul>li:hover a{
 .submit>input{
     border:none;
     border-radius: 6px;
-    background:#109560;
-    box-shadow: 0px 2px 10px #109560;
+    box-shadow: 1px 2px 10px #999;
     color: #FFF;
     font-size: 1.4em;
     margin: 25px;
     outline:0;
     width: 150px;
 }
-.submit>input:active{
+.submit>input[type="submit"]{
+    background:#109560;
 }
 
+.submit>input[type="submit"]:active{
+    box-shadow: -1px 2px 8px #333;;
+}
+.submit>input[type="button"]{
+    background: #be1e2d;
+}
+.submit>input[type="button"]:active{
+    box-shadow: -1px 2px 8px #333;;
+}
 /******/
+/******PANEL AJUSTES********/
+.panel-settings{
+    //border:1px solid;
+    margin: 0 auto 90px auto;
+    width: 92%;
+}
+.box-setting{
+    margin: 25px 0;
+}
+.box-setting .title-setting{
+    border-bottom: 1px solid;
+    padding: 8px;
+    text-align: right;
+}
+.box-setting .title-setting>*{
+    display: inline-block;
+    vertical-align: bottom;
+}
+.box-setting .title-setting>h3{
+    margin: 0;
+    float: left;
+}
+.box-setting .title-setting>input{
+    background: #fcb249;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #b7b9bc;
+    color:#fff;
+    outline: none;
+}
+.box-setting .title-setting>input:active{
+    box-shadow: 2px 2px 10px #b7b9bc;
+}
+#desplegable1,#desplegable2,#desplegable3,#desplegable4,#desplegable5{
+    display: none;
+}
+/*************/
 .wrap-main .pagination{
     //border:1px solid;
     text-align: center;
