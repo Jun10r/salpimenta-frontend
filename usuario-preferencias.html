@@ -27,17 +27,32 @@ and open the template in the editor.
                 $('#change1').click(function(){
                     $('#desplegable1').slideToggle();
                 });
+                $('#cancel1').click(function(){
+                    $('#desplegable1').slideUp();
+                });
                 $('#change2').click(function(){
                     $('#desplegable2').slideToggle();
+                });
+                $('#cancel2').click(function(){
+                    $('#desplegable2').slideUp();
                 });
                 $('#change3').click(function(){
                     $('#desplegable3').slideToggle();
                 });
+                $('#cancel3').click(function(){
+                    $('#desplegable3').slideUp();
+                });
                 $('#change4').click(function(){
                     $('#desplegable4').slideToggle();
                 });
+                $('#cancel4').click(function(){
+                    $('#desplegable4').slideUp();
+                });
                 $('#change5').click(function(){
                     $('#desplegable5').slideToggle();
+                });
+                $('#cancel5').click(function(){
+                    $('#desplegable5').slideUp();
                 });
             });
         </script>
@@ -108,7 +123,7 @@ and open the template in the editor.
             </ul>
         </nav>
         <section class="wrap-main">
-            <div class="info-section">
+            <div class="info-section preferencia text-preferencia">
                 <div class="title-section">
                     <h1>Preferencias</h1>
                 </div>
@@ -125,7 +140,7 @@ and open the template in the editor.
                                 <input type="file" name="img" >
                             </div>
                             <div class="submit inline">
-                                <input type="button" id="cancel" value="Cancelar"> <input type="submit" value="Modificar">
+                                <input type="button" id="cancel1" value="Cancelar"> <input type="submit" value="Modificar">
                             </div>
                         </form>
                     </div>
@@ -144,7 +159,7 @@ and open the template in the editor.
                                 <input type="text" name="platoFav" placeholder="Plato favorito">
                             </div>
                             <div class="submit inline">
-                                <input type="button" id="cancel" value="Cancelar"> <input type="submit" value="Modificar">
+                                <input type="button" id="cancel2" value="Cancelar"> <input type="submit" value="Modificar">
                             </div>
                         </form>
                     </div>
@@ -160,7 +175,7 @@ and open the template in the editor.
                                 <input type="text" name="email" placeholder="Email">
                             </div>
                             <div class="submit inline">
-                                <input type="button" id="cancel" value="Cancelar"> <input type="submit" value="Modificar">
+                                <input type="button" id="cancel3" value="Cancelar"> <input type="submit" value="Modificar">
                             </div>
                         </form>
                     </div>
@@ -178,7 +193,7 @@ and open the template in the editor.
                                 <input type="password" name="clave-nueva-confirm" placeholder="Confirma contraseña">
                             </div>
                             <div class="submit inline">
-                                <input type="button" id="cancel" value="Cancelar"> <input type="submit" value="Modificar">
+                                <input type="button" id="cancel4" value="Cancelar"> <input type="submit" value="Modificar">
                             </div>
                         </form>
                     </div>
@@ -194,7 +209,7 @@ and open the template in the editor.
                                 <!--<input type="file" name="img" >-->
                             </div>
                             <div class="submit inline">
-                                <input type="submit" id="cancel" value="Darse de Baja">
+                                <input type="submit" id="cancel5" value="Darse de Baja">
                             </div>
                         </form>
                     </div>
