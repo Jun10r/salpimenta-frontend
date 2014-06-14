@@ -11,13 +11,16 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/icomoon.css"/>
-
+        <link rel="stylesheet" href="css/rateit.css"/>
         <link rel="stylesheet" href="css/main.css"/>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <link rel="shortcut icon" href="img/favicon.ico" />
 
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>-->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/jquery-2.1.0.min.js"></script>
+        <script src="js/jquery.rateit.js" type="text/javascript"></script>
     </head>
     <body>
         <header class="header">
@@ -49,20 +52,11 @@ and open the template in the editor.
                     <div>
                         <span>Usuario</span>
                         <span>5 recetas</span>
-                        <!--Al pinchar  abrir menu panel perfil.
-                        /*
-                            Ajustes
-                            Mi ficha
-                            ver/editar Recetas
-                            desconectarse
-                            seriesly.
-                        */
-                        -->
                     </div>
                 </div>
             </div>
         </header>
-        <nav>
+        <nav class="menu">
             <ul>
                 <li class="aperitivos"><a href="#">Aperitivos</a></li>
                 <li class="ensaladas-y-verduras"><a href="#">Ensaladas y Verduras</a></li>
@@ -98,21 +92,79 @@ and open the template in the editor.
                 <div class="wrap-autor">
                     <div class="image-receta">
                         <figure>
-                            <img src="#" alt="#">
+                            <img src="img/aperitivo-detalle.jpg" alt="#">
                         </figure>
+                        <div class="rating-box aperitivos">
+                            <div class="heart"><a href=""><span class="icon-heart"></span></a></div>
+                        </div>
                     </div>
-                    <section class="box-autor">
-                        <header class="title-autor">
-                            <span>Autor:</span>
-                            <h2><span>Eva</span> Tejada</h2>
-                        </header>
-                        <div class="image-autor">
-                            <figure>
-                                <img src="img/eva.jpg" alt="imagen autor">
-                            </figure>
+                    <section class="olakase">
+                        <div class="voto-general">
+                            <div class="voto-general-num">5.3</div>
+                            <div class="rateit" data-rateit-value="2.5"></div>
+                        </div>
+                        <div class="box-autor">
+                            <header class="title-autor">
+                                <span>Autor:</span>
+                                <h2><a href="#">Eva Tejada</a></h2>
+                            </header>
+                            <div class="image-autor aperitivos">
+                                <figure>
+                                    <a href="#"><img src="img/eva.jpg" alt="imagen autor"></a>
+                                </figure>
+                            </div>
                         </div>
                     </section>
+
                 </div>
+
+                <article class="description-receta">
+                    <article class="tab-receta">
+                        <header>
+                            <h3>Ingredientes</h3>
+                            <span class="icono-salpimenta"><img src="img/salpimenta-icono.jpg"></span>
+                        </header>
+                        <section>
+                            <ul>
+                                <li>300 g de chichiquis</li>
+                                <li>(chorizo fresco sin embutir)</li>
+                                <li>4 huevos</li>
+                                <li>aceite de oliva virgen extra</li>
+                                <li>sal</li>
+                                <li>perejil picado</li>
+                                <li>4 huevos</li>
+                            </ul>
+                        </section>
+                    </article>
+                    <article class="tab-receta">
+                        <header>
+                            <h3>Elaboracion </h3>
+                            <span class="icon-food"></span>
+                        </header>
+                        <section>
+                            <p>Calienta un pocCalienta un pocCalienta un pocCalienta un pocCalienta un pocCalienta un pocCalienta un pocCalienta un pocCalienta un pocCalienta un pocCalienta un poco de aceite en una sarten, incorpora los chichiquis y cocinalos a fuego medio hasta que se doren un poco</p>
+                            <p>Retiralos de la sarten y escurrelos sobre un plato cubierto con papel de cocina</p>
+                            <p>Retiralos de la sarten y escurrelos sobre un plato cubierto con papel de cocina</p>
+                            <p>Retiralos de la sarten y escurrelos sobre un plato cubierto con papel de cocina</p>
+                            <p>Retiralos de la sarten y escurrelos sobre un plato cubierto con papel de cocina</p>
+                            <span>sdasd</span>
+                        </section>
+                    </article>
+                    <article class="tab-receta">
+                        <header>
+                            <h3>Sugerencia </h3>
+                            <span class="icon-eye"></span>
+                        </header>
+                        <section>
+                            <p>Calienta un poco de aceite en una sarten, incorpora los chichiquis y cocinalos a fuego medio hasta que se doren un poco</p>
+                            <p>Retiralos de la sarten y escurrelos sobre un plato cubierto con papel de cocina</p>
+                            <p>Retiralos de la sarten y escurrelos sobre un plato cubierto con papel de cocina</p>
+                            <p>Retiralos de la sarten y escurrelos sobre un plato cubierto con papel de cocina</p>
+                            <p>Retiralos de la sarten y escurrelos sobre un plato cubierto con papel de cocina</p>
+
+                        </section>
+                    </article>
+                </article>
             </article>
         </div>
         <footer>
