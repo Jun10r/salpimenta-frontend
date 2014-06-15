@@ -68,6 +68,9 @@ textarea {
     -ms-transform : scale(1.1);
     -o-transform : scale(1.1);
 }
+.activo-menu>a{
+    color:#333;
+}
 .activo-list-option{
     font-weight: bold;
 }
