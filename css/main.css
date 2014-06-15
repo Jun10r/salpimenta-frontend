@@ -69,7 +69,6 @@ textarea {
     -o-transform : scale(1.1);
 }
 .activo-list-option{
-    opacity: 1;
     font-weight: bold;
 }
 .activo-pagination{
@@ -170,7 +169,6 @@ a{
 .header .options ul>li{
     color: #FFF;
     display: inline-block;
-    opacity: 0.8;
     vertical-align: top;
 }
 .header .options ul>li:hover{
