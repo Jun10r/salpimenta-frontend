@@ -262,6 +262,7 @@ a{
     transition-delay:0s;
 }
 .user .menu-perfil{
+    width: 200px;
     background: #FFC26B;
     border-radius: 0 15px 15px 15px;
     //box-shadow: 2px 4px 3px #B1B1B2;
@@ -278,7 +279,7 @@ a{
 .user .menu-perfil>li{
     border:1px solid #F58029;
     list-style: none;
-    padding: 5px 15px;
+    padding: 5px 20px;
     text-align: center;
 }
 .user .menu-perfil>li:last-child{
@@ -286,10 +287,16 @@ a{
     background:red;
     color:#fff !important;
 }
+.user .menu-perfil>li:last-child a{
+    color:#fff !important;
+}
 .user .menu-perfil a{
     display: block;
     color:#333;
-    margin: 0;
+    margin: 4px;
+}
+.user .menu-perfil a:hover{
+    font-weight: bold;
 }
 .user ul{
     margin: 0;
@@ -427,23 +434,81 @@ nav>ul>li:hover a{
 .aperitivos .icon-heart{color:#F58029 !important;}
 .aperitivos .icon-heart2{color:#F58029 !important;}
 /****ENSALADAS Y VERDURAS****/
-.ensaladas-y-verduras{
-    border-color: #8dc63f !important;
-}
+.ensaladas-y-verduras{border-color: #8dc63f !important;}
 .text-ensaladas-y-verduras{color:#8dc63f !important;}
-.ensaladas-y-verduras *{
-    border-color: #8dc63f !important;
-}
+.ensaladas-y-verduras *{border-color: #8dc63f !important;}
 .ensaladas-y-verduras .icon-heart{color:#8dc63f !important;}
 .ensaladas-y-verduras .icon-heart2{color:#8dc63f !important;}
-/***********/
-.arroces-y-cereales{
-    border-color: #f5ee31 !important;
-}
-/*********/
-.sopas-y-cremas{
-    border-color: #dbb570 !important;
-}
+/******Arroces y Cereales*****/
+.arroces-y-cereales{border-color: #f5ee31 !important;}
+.arroces-y-cereales *{border-color: #f5ee31 !important;}
+.text-arroces-y-cereales{color: #f5ee31 !important;}
+.arroces-y-cereales .icon-heart{color: #f5ee31 !important;}
+.arroces-y-cereales .icon-heart2{border-color: #f5ee31 !important;}
+/*****Sopa y Cremas****/
+.sopas-y-cremas{border-color: #dbb570 !important;}
+.sopas-y-cremas *{border-color: #dbb570 !important;}
+.text-sopas-y-cremas{color: #dbb570 !important;}
+.sopas-y-cremas .icon-heart{border-color: #dbb570 !important;}
+.sopas-y-cremas .icon-heart2{border-color: #dbb570 !important;}
+/**********/
+/******Pastas y Pizzas********/
+.pastas-y-pizzas{border-color: #ED4E5C !important;}
+.pastas-y-pizzas *{border-color: #ED4E5C !important;}
+.text-pastas-y-pizzas{color: #ED4E5C !important;}
+.pastas-y-pizzas .icon-heart{border-color: #ED4E5C !important;}
+.pastas-y-pizzas .icon-heart2{border-color: #ED4E5C !important;}
+/**************/
+/******Legumbres******/
+.legumbres{border-color: #E8C162 !important;}
+.legumbres *{border-color: #E8C162 !important;}
+.text-legumbres{color: #E8C162 !important;}
+.legumbres .icon-heart{border-color: #E8C162 !important;}
+.legumbres .icon-heart2{border-color: #E8C162 !important;}
+/*************/
+/***FALTA COLORES***/
+/******Carnes******/
+.carnes{border-color: #B06164 !important;}
+.carnes *{border-color: #B06164 !important;}
+.text-carnes{color: #B06164 !important;}
+.carnes .icon-heart{border-color: #B06164 !important;}
+.carnes .icon-heart2{border-color: #B06164 !important;}
+/************/
+/******Pescados y Mariscos******/
+.pescados-y-mariscos{border-color: #8B989B !important;}
+.pescados-y-mariscos *{border-color: #8B989B !important;}
+.text-pescados-y-mariscos{color: #8B989B !important;}
+.pescados-y-mariscos .icon-heart{border-color: #8B989B !important;}
+.pescados-y-mariscos .icon-heart2{border-color: #8B989B !important;}
+/************/
+/******Huevos******/
+.huevos{border-color: #FDB180 !important;}
+.huevos *{border-color: #FDB180 !important;}
+.text-huevos{color: #FDB180 !important;}
+.huevos .icon-heart{border-color: #FDB180 !important;}
+.huevos .icon-heart2{border-color: #FDB180 !important;}
+/************/
+/******Setas y Hongos******/
+.setas-y-hongos{border-color: #BE8944 !important;}
+.setas-y-hongos *{border-color: #BE8944 !important;}
+.text-setas-y-hongos{color: #BE8944 !important;}
+.setas-y-hongos .icon-heart{border-color: #BE8944 !important;}
+.setas-y-hongos .icon-heart2{border-color: #BE8944 !important;}
+/************/
+/******Salsa******/
+.salsas{border-color: #E5BF85 !important;}
+.salsas *{border-color: #E5BF85 !important;}
+.text-salsas{color: #E5BF85 !important;}
+.salsas .icon-heart{border-color: #E5BF85 !important;}
+.salsas .icon-heart2{border-color: #E5BF85 !important;}
+/************/
+/******Postres******/
+.postres{border-color: #F26D6E !important;}
+.postres *{border-color: #F26D6E !important;}
+.text-huevos{color: #F26D6E !important;}
+.postres .icon-heart{border-color: #F26D6E !important;}
+.postres .icon-heart2{border-color: #F26D6E !important;}
+/************/
 .text-preferencia{
     color:#939598;
 }
@@ -684,10 +749,12 @@ nav>ul>li:hover a{
     width: 45%;
 }
 .vblog-picture figure{
+    //border:1px solid;
     height: 150px;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 202px;
+    overflow: hidden;
 }
 .vblog-picture figure img{
     width: 100%;
@@ -862,7 +929,7 @@ nav>ul>li:hover a{
 .form-login{
     background: #FFF;
     display: inline-block;
-    opacity: 0.8;
+    opacity: 0.9;
     text-align: center;
     width: 400px;
 }
@@ -908,7 +975,11 @@ nav>ul>li:hover a{
 }
 .wrap-welcome{
     //border:1px solid;
-    margin: auto;
+    height: 168px;
+    left: 50%;
+    margin: -168px 0 0 -199px;
+    position: absolute;
+    top: 50%;
     width: 400px;
 }
 /********/
@@ -1053,6 +1124,7 @@ nav>ul>li:hover a{
 footer{
     background-color: #E7E7E8;
     color: #B1B1B2;
+    height: 14%;
     display: table-footer-group;
     width: 100%;
 }
