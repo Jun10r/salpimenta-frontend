@@ -262,7 +262,6 @@ a{
     transition-delay:0s;
 }
 .user .menu-perfil{
-    width: 200px;
     background: #FFC26B;
     border-radius: 0 15px 15px 15px;
     //box-shadow: 2px 4px 3px #B1B1B2;
@@ -279,7 +278,7 @@ a{
 .user .menu-perfil>li{
     border:1px solid #F58029;
     list-style: none;
-    padding: 5px 20px;
+    padding: 5px 10px;
     text-align: center;
 }
 .user .menu-perfil>li:last-child{
