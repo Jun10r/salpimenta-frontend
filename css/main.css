@@ -438,7 +438,6 @@ nav>ul>li:hover a{
 
 /********Plantilla secciones****************/
 .info-section{
-    border:1px solid;
     border-left: 35px solid;
     margin: 0 0 50px 0; 
 
@@ -882,7 +881,6 @@ nav>ul>li:hover a{
 
 /****Subir receta******/
 .wrap-upload{
-    border:1px solid;
     margin: auto;
     width: 90%;
 }
@@ -906,11 +904,28 @@ nav>ul>li:hover a{
     box-shadow: 1px 1px 5px #333;
 }
 .box-form,.box-guide{
-    border:1px solid;
+   //border:1px solid;
     display: inline-block;
     vertical-align: top;
     height: 300px;
+    overflow: hidden;
     width: 400px;
+}
+.box-guide>h4{
+    border-bottom: 1px solid;
+    font-size: .9em;
+    padding: 0 0 8px 0;
+}
+.box-guide{
+    opacity: 0.5;
+    height: 250px;
+}
+.align{
+    display: inline-block;
+    margin: 0 110px 0 0;
+}
+.tags>input{
+    width: 785px;
 }
 
 
