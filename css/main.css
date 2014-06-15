@@ -638,19 +638,21 @@ nav>ul>li:hover a{
     width: 500px;
 }
 .image-receta figure{
+    box-shadow: 2px 2px 4px #6d6e71;
     margin: 0;
 }
 .image-receta figure img{
     width: 100%;
 }
 .olakase{
-    //border:1px solid;
+
     display: inline-block;
     vertical-align: top;
     margin: 0 0 0 90px;
 }
 
 .box-autor .title-autor>span{
+
     color:#939598;
     display: block;
     font-size: 1.2em;
@@ -666,11 +668,14 @@ nav>ul>li:hover a{
     font-size: 2em;
     margin: 0 0 4px 0;
 }
+.box-autor .title-autor>h2>a{
+    color:#6d6e71;
+}
 .box-autor .image-autor{
     border-top: 1px solid ;
 }
 .box-autor .image-autor figure{
-    //border:1px solid;
+    box-shadow: 2px 2px 4px #6d6e71;
     margin: 5px 0 0 0;
     //width: 100%;
 }
